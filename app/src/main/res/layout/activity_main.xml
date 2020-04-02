@@ -36,7 +36,7 @@
     <ImageView
         android:id="@+id/imageView"
 
-        android:layout_width="44dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
 
         android:layout_marginBottom="425dp"
@@ -203,7 +203,7 @@
         android:textSize="30dp"
         android:text="----------------------------------------"
         android:layout_marginBottom="0dp"
-       android:layout_marginTop="485dp"
+       android:layout_marginTop="4dp"
 
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -378,9 +378,39 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
 
-        />
+
+
+
+    <LinearLayout
+        android:id="@+id/topLine"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:background="@color/Black"
+        android:orientation="horizontal"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:layout_marginLeft="60dp"
+
+            android:text="22ᶰᵈ SEPTEMBER 2016"
+            android:textSize="25sp" />
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
 
 
 
